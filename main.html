@@ -1,62 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-	
+  <title>Game Statistics</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 70%;
+      margin: auto;
+      margin-top: 30px;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    caption {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-	
-	<table border=1px; height="20px">
-		<tr >
-			<th>Name</th>
-			<th>Kills</th>
-			<th>Saved</th>
-			<th>Deaths</th>
-			<th>Revives</th>
-			<th>win</th>
-		</tr>
-		<tr>
-			<td>Omkar</td>
-			<td>10</td>
-			<td>0</td>
-			<td>1</td>
-			<td>0</td>
-			<td>9</td>
-		</tr>
-
-		<tr bgcolor="red">
-			<td>alex</td>
-			<td>7</td>
-			<td>3</td>
-			<td>5</td>
-			<td>3</td>
-			<td>2</td>
-		</tr>
-		<tr>
-			<td>wando</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
-			<td>7</td>
-			<td>8</td>
-		</tr>
-		<tr bgcolor="pink">
-			<td>taj</td>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-		</tr>
-		
-	</table>
-	
-    <!-- add table here -->
-
-        
+  <table>
+    <caption>Game Statistics</caption>
+    <thead>
+      <tr>
+        <th>Player</th>
+        <th>Score</th>
+        <th>Level</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Player 1</td>
+        <td>1200</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Player 2</td>
+        <td>850</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Player 3</td>
+        <td>1700</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Player 4</td>
+        <td>600</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
